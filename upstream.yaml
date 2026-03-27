@@ -1,0 +1,15 @@
+schema_version: "vyges-upstream-v1"
+upstream:
+  type: "monorepo"
+  source: https://github.com/chipsalliance/caliptra-rtl
+  path: src/uart
+  commit: a47402b3ac20c15c7d18f17456fb9cca56f25274
+import:
+  rtl:
+    - path: "rtl"
+      map_to: "rtl"
+  license:
+    - path: "LICENSE"
+license:
+  spdx: Apache-2.0
+  file: LICENSE
