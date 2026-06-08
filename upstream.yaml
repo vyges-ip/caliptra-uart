@@ -3,7 +3,7 @@ upstream:
   type: "monorepo"
   source: https://github.com/chipsalliance/caliptra-rtl
   path: src/uart
-  commit: 52e7ca36bca5847065a28fdd70c7b97d04644697
+  commit: a7d7421ef510e809ad2b9c071402c0cc9c19328d
 import:
   rtl:
     - path: "rtl"
